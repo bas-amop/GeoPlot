@@ -62,5 +62,3 @@ For contributions and feature additions please contact [amop@bas.ac.uk](amop@bas
 
 ## License
 Distributed under the MIT license. See ``LICENSE`` for more information.
-[version]: https://img.shields.io/GeoPlot/v/datadog-metrics.svg?style=flat-square
-[downloads]: https://img.shields.io/GeoPlot/dm/datadog-metrics.svg?style=flat-square
