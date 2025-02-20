@@ -104,6 +104,9 @@ def plot_mesh_cli():
     if 'shallow' in mesh.columns:
         logging.debug("Plotting shallow areas")
         mp.Maps(mesh, 'Shallows', predefined='Shallows')
+    if 'elevation_max' in mesh.columns:
+        logging.debug("Plotting areas above maximum elevation")
+        mp.Maps(mesh, 'Max Elevation', predefined='Max Elevation')
     if 'elevation' in mesh.columns:
         logging.debug("Plotting elevation")
         mp.Maps(mesh, 'Elevation', predefined='Elev', show=False)
