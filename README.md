@@ -49,9 +49,9 @@ optional arguments are:
 ```
 -v '(turn on verbose logging)'
 -o '(set output location for plot)'
--s '(create a static plot as opposed to an interactive html file)'
 -t '(remove the title bar from the plot)'
 -r '(plot an additional route from the given file)'
+-w '(plot additional waypoints from the given file)'
 -a '(add directional arrows to all routes)'
 -b '(create the plot without a basemap layer)'
 ```
