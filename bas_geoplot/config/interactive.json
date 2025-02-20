@@ -328,6 +328,12 @@
             "fill_color":"blue",
             "line_width":0.05
         },
+        "Max Elevation":{
+            "fill_opacity":0.6,
+            "data_name":"elevation_max",
+            "fill_color":"red",
+            "line_width":0.05
+        },
         "cx":
         {
             "line_color":"black",
