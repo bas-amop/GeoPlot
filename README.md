@@ -6,7 +6,7 @@
 <a href="https://github.com/bas-amop/GeoPlot/issues"><img src="https://img.shields.io/github/issues/bas-amop/GeoPlot" alt="Issues"></a>
 <a href="https://github.com/bas-amop/GeoPlot/blob/main/LICENSE"><img src="https://img.shields.io/github/license/bas-amop/GeoPlot" alt="License"></a>
 
-GeoPlot is an interactive and static plotting toolkit developed by members of the BAS Artificial
+GeoPlot is an interactive plotting toolkit developed by members of the BAS Artificial
 Intelligence Lab and designed to be used in combination with other software packages under development by the same team.
 
 ## Installation
