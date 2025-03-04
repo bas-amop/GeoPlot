@@ -1,0 +1,47 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bas_geoplot"
+description = "GeoPlot: BAS AI Lab plotting scripts for internal plotting & visualisation"
+authors = [
+    {name = "Autonomous Marine Operations Planning (AMOP) Team, AI Lab, British Antarctic Survey", email = "amop@bas.ac.uk"}
+]
+readme = "README.md"
+license = {file = "LICENSE"}
+requires-python = ">= 3.8"
+classifiers = ["Intended Audience :: Science/Research",
+    "Development Status :: 3 - Alpha",
+    "License :: OSI Approved :: MIT License",
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14"
+]
+keywords= ["Polar Science",
+    "Geoscience",
+    "Visualisation"]
+dynamic = ["version", "dependencies"]
+
+[tool.setuptools]
+packages = ["bas_geoplot"]
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
+version = {attr = "bas_geoplot.__version__"}
+
+[project.urls]
+Homepage = "https://www.bas.ac.uk/project/autonomous-marine-operations-planning"
+Repository = "https://github.com/bas-amop/GeoPlot"
+Issues = "https://github.com/bas-amop/GeoPlot/issues"
+
+[project.scripts]
+plot_mesh = "bas_geoplot.cli:plot_mesh_cli"
